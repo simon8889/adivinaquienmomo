@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Card from './components/Card'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className="app">
+            <h1>Adivina el personaje de Momo</h1>
+            <p>Presta atención a las pistas, descarta personajes y adivina el personaje.</p>
+            <br/>
+            <div className='app_container'>
+                <Card name="Momo" />
+                <Card name="Beppo Barrendero" />
+                <Card name="Gigi Cicerones" />
+                <Card name="Blanco" />
+                <Card name="Hombres Grises" />
+                <Card name="Paolo" />
+                <Card name="Señor Fusi" />
+                <Card name="Maria" />
+                <Card name="Massimo" />
+                <Card name="Nicola" />
+                <Card name="Nino" />
+            </div>
+        </div>
+    );
 }
 
 export default App;
