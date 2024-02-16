@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/adivinaquienmomo/static/css/main.a0613530.css",
+    "main.js": "/adivinaquienmomo/static/js/main.71e32d91.js",
+    "static/js/592.d29aee65.chunk.js": "/adivinaquienmomo/static/js/592.d29aee65.chunk.js",
+    "index.html": "/adivinaquienmomo/index.html",
+    "main.a0613530.css.map": "/adivinaquienmomo/static/css/main.a0613530.css.map",
+    "main.71e32d91.js.map": "/adivinaquienmomo/static/js/main.71e32d91.js.map",
+    "592.d29aee65.chunk.js.map": "/adivinaquienmomo/static/js/592.d29aee65.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0613530.css",
+    "static/js/main.71e32d91.js"
+  ]
+}
